@@ -77,7 +77,7 @@
         <!-- Nav end -->
 
         <!-- Header Section Start -->
-        <div class="bg-bike-bg-primary rounded-lg">
+        <div class="bg-bike-bg-primary rounded-lg py-8 lg:py-0">
             <div class="carousel w-full lg:h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="flex flex-col lg:flex-row items-center px-20">
@@ -171,7 +171,7 @@
         </section>
 
         <!-- Latest News Section -->
-        <section class="py-24">
+        <section class="py-24 px-3 lg:px-0">
             <h2 class="font-semibold text-5xl text-center mb-20">latest News</h2>
             <div class="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="card bg-base-100 shadow-xl">
@@ -211,7 +211,7 @@
         </section>
 
         <!-- Happy Clients Section -->
-        <section class="py-24">
+        <section class="py-24 px-3 lg:px-0">
             <h2 class="font-semibold text-5xl text-center mb-20">Happy <span class="text-bike-primary">Clients
                     says</span></h2>
             <div class="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -269,7 +269,7 @@
         </section>
 
         <!-- FAQ Section -->
-        <section class="py-24">
+        <section class="py-24 px-3 lg:px-0">
             <h2 class="font-semibold text-5xl text-center mb-20">Frequently Asked <span
                     class="text-bike-primary">Questions</span></h2>
             <div class="hero">
@@ -296,7 +296,8 @@
                             </div>
                             <div class="collapse-content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis est in ex
-                                    quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facilis saepe rerum consequuntur accusamus possimus?</p>
+                                    quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facilis saepe rerum
+                                    consequuntur accusamus possimus?</p>
                             </div>
                         </div>
                         <div class="collapse collapse-arrow">
@@ -316,7 +317,8 @@
                             </div>
                             <div class="collapse-content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque officiis minus,
-                                    dolorum beatae labore odio accusantium explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, dicta.</p>
+                                    dolorum beatae labore odio accusantium explicabo. Lorem ipsum dolor sit amet
+                                    consectetur, adipisicing elit. Adipisci, dicta.</p>
                             </div>
                         </div>
                     </div>
@@ -324,8 +326,26 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-neutral">
+        <div class="md:container md:mx-auto footer p-10 text-neutral-content justify-between items-center">
+            <nav>
+                <header class="footer-title">Services</header>
+                <ul class="flex flex-col lg:flex-row gap-4">
+                    <a class="link link-hover">About</a>
+                    <a class="link link-hover">Features</a>
+                    <a class="link link-hover">Pricing</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">Help</a>
+                    <a class="link link-hover">Privacy</a>
+                </ul>
+                <p class="mt-5">&copy; 2023 bike. All rights reserved</p>
+            </nav>
+            <nav>
+                <header class="footer-title">Get The App</header>
+                <a class="link link-hover"><img class="w-36" src="images/others/android.png" alt=""></a>
+                <a class="link link-hover"><img class="w-36" src="images/others/ios.png" alt=""></a>
+            </nav>
+        </div>
     </footer>
 </body>
 
